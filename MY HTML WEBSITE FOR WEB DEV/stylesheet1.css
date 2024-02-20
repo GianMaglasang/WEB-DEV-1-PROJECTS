@@ -1,0 +1,423 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; 
+}
+
+#main-body {
+    position: relative;
+}
+
+#main-header {
+    background-color: #1B1B1B;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    height: 85px;
+}
+
+#logo-container {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%; 
+}
+
+.logo {
+    max-width: 100%; 
+    height: 70px;
+    margin-top: 18px;
+    margin-right: 20px;
+}
+
+#header-icons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0px;
+}
+
+.left-icon {
+    height: 45px;
+    margin-left: 420px;
+    margin-right: 10px;
+    margin-top: 12px;
+    max-width: 100%;
+}
+
+.right-icon {
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 420px;
+    margin-top: 12px;
+    max-width: 100%;
+}
+
+#header-text {
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%);
+    left: 50%;
+    display: flex;
+    align-items: center; 
+    transform: translateX(-50%);
+}
+
+.top-text-line-1,
+.top-text-line-2,
+.bottom-text-line-1,
+.bottom-text-line-2 {
+    margin: 0px; 
+    display: block; 
+}
+
+.top-text-line-1 {
+    margin-right: 300px;
+    font-weight: bold;
+    color: #ED2027;
+    font-size: 25px;
+    margin-top: -30px;
+}
+.bottom-text-line-1 {
+    font-weight: bold;
+    color: #ED2027;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-left: 300px;
+    margin-top: -30px;
+}
+
+.top-text-line-2 {
+    margin-right: 300px;
+    color: #ffffff;
+    margin-top: 0px;
+    font-size: 20px;
+}
+.bottom-text-line-2 {
+    color: #ffffff;
+    margin-top: 0px;
+    margin-left: 300px;
+    font-size: 20px;
+}
+
+.menu {
+    text-align: center;
+    padding: 5px;
+    background-color: #282828;
+    font-family: Impact;
+    font-size: 25px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 100px; 
+    letter-spacing: 1px;
+}
+
+#Home {
+    color: #B0B0B0;
+}
+
+#AboutUs {
+    color: #B0B0B0;
+}
+
+#OurCars {
+    color: #B0B0B0;
+    color: #ED2027;
+}
+
+.menu a:hover {
+    background-color: #ddd;
+}
+
+.OurCars {
+    color: black;
+    font-family: Impact;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.welcome{
+    color:rgb(117, 117, 117);
+    letter-spacing: 13px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.sedan {
+    width: 100%;
+    color: white;
+    background-color: #4E4E4E; 
+    padding: 5px; 
+    box-sizing: border-box;
+    margin-top: 30px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    letter-spacing: 15px;
+    }
+
+.sedan-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+    z-index: 1;
+}
+
+.sedan-container img {
+    width: 18%;
+    height: auto;
+    z-index: 1;
+}
+
+.SUV {
+    width: 100%;
+    color: white;
+    background-color: #4E4E4E; 
+    padding: 5px; 
+    box-sizing: border-box;
+    margin-top: 30px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    letter-spacing: 15px;
+}
+
+.suv-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.suv-container img {
+    width: 18%;
+    height: auto;
+}
+
+.MPV {
+    width: 100%;
+    color: white;
+    background-color: #4E4E4E; 
+    padding: 5px; 
+    box-sizing: border-box;
+    margin-top: 30px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    letter-spacing: 15px;
+    }
+
+.mpv-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.mpv-container img {
+    width: 18%;
+    height: auto;
+}
+   
+.sedan_checkbox {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 200px;
+    margin-right: 0px;
+    z-index: 999;
+    position: absolute;
+}
+
+#sedan_checkbox1 {
+    position: absolute;
+    top: 448px; 
+    left: 555px;
+}
+
+#sedan_checkbox2 {
+    position: absolute;
+    top: 448px; 
+    left: 1160px;
+}
+
+#sedan_checkbox3 {
+    position: absolute;
+    top: 448px; 
+    left: 1750px;
+}
+
+.suv_checkbox {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 200px;
+    margin-right: 0px;
+    z-index: 999;
+    position: absolute;
+}
+
+#suv_checkbox1 {
+    position: absolute;
+    top: 736px; 
+    left: 555px;
+}
+
+#suv_checkbox2 {
+    position: absolute;
+    top: 736px; 
+    left: 1160px;
+}
+
+#suv_checkbox3 {
+    position: absolute;
+    top: 736px; 
+    left: 1750px;
+}
+
+.mpv_checkbox {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 200px;
+    margin-right: 0px;
+    z-index: 999;
+    position: absolute;
+}
+
+#mpv_checkbox1 {
+    position: absolute;
+    top: 1038px; 
+    left: 555px;
+}
+
+#mpv_checkbox2 {
+    position: absolute;
+    top: 1038px; 
+    left: 1160px;
+}
+
+#mpv_checkbox3 {
+    position: absolute;
+    top: 1038px; 
+    left: 1750px;
+}
+
+.bookbutton {
+    position: absolute;
+    top: 75%;
+    left: 43%;
+    padding: 10px 20px;
+    background-color: #ED2027;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.bookbutton:hover {
+    background-color: #ffffff;
+    color: #ED2027;
+    position: absolute;
+}
+
+footer {
+    background-color: #1B1B1B;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 200px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0%;
+}
+
+.footer-image img {
+    position: absolute;
+    bottom: -19px;
+    left: -350px;
+    width: auto; 
+    height: 255px;
+}
+
+#h3 {
+    color: #ED2027;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 300px;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+#footer-section1 {
+    flex: 1 1 calc(33.33% - 30px); 
+    padding: 0 10px; 
+    min-height: 10px; 
+    margin-left: -65px;
+}
+
+#footer-section2 {
+    flex: 1 1 calc(33.33% - 30px); 
+    padding: 0 10px; 
+    min-height: 10px; 
+    margin-left: 80px;
+}
+
+#footer-section3 {
+    flex: 1 1 calc(33.33% - 30px); 
+    padding: 0 10px; 
+    min-height: 10px; 
+    margin-left: 80px;
+    margin-right: -100px;
+}
+
+.footer-section:last-child {
+    margin-bottom: 0; 
+}
+
+.social-logo {
+    width: auto;
+}
+
+#social-logo1 {
+    height: 50px;
+    margin-right: 20px;
+}
+
+#social-logo2 {
+    height: 50px;
+    margin-right: 20px;
+}
+
+#social-logo3 {
+    height: 50px;
+}

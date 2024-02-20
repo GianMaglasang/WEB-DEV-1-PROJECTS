@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; 
+}
+
+#main-body {
+    position: relative;
+}
+
+#main-header {
+    background-color: #1B1B1B;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    height: 85px;
+}
+
+#logo-container {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%; 
+}
+
+.logo {
+    max-width: 100%; 
+    height: 70px;
+    margin-top: 18px;
+    margin-right: 20px;
+}
+
+#header-icons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0px;
+}
+
+.left-icon {
+    height: 45px;
+    margin-left: 420px;
+    margin-right: 10px;
+    margin-top: 12px;
+    max-width: 100%;
+}
+
+.right-icon {
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 420px;
+    margin-top: 12px;
+    max-width: 100%;
+}
+
+#header-text {
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%);
+    left: 50%;
+    display: flex;
+    align-items: center; 
+    transform: translateX(-50%);
+}
+
+.top-text-line-1,
+.top-text-line-2,
+.bottom-text-line-1,
+.bottom-text-line-2 {
+    margin: 0px; 
+    display: block; 
+}
+
+.top-text-line-1 {
+    margin-right: 300px;
+    font-weight: bold;
+    color: #ED2027;
+    font-size: 25px;
+    margin-top: -30px;
+}
+.bottom-text-line-1 {
+    font-weight: bold;
+    color: #ED2027;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-left: 300px;
+    margin-top: -30px;
+}
+
+.top-text-line-2 {
+    margin-right: 300px;
+    color: #ffffff;
+    margin-top: 0px;
+    font-size: 20px;
+}
+.bottom-text-line-2 {
+    color: #ffffff;
+    margin-top: 0px;
+    margin-left: 300px;
+    font-size: 20px;
+}
+
+.menu {
+    text-align: center;
+    padding: 5px;
+    background-color: #282828;
+    font-family: Impact;
+    font-size: 25px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 100px; 
+    letter-spacing: 1px;
+}
+
+#Home {
+    color: #B0B0B0;
+}
+
+#AboutUs {
+    color: #B0B0B0;
+}
+
+#OurCars {
+    color: #B0B0B0;
+    color: #ED2027;
+}
+
+.menu a:hover {
+    background-color: #ddd;
+}
+
+.image {
+    position: relative; 
+    width: 100%; 
+    z-index: -1;
+}
+
+.box {
+    position: relative;
+    width: 500px;
+    height: 350px;
+    margin: 30px auto;
+    top: -610px;
+    background-color: white;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.text-in-box {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 1;
+}
+  
+#text-in-box-1 {
+    top: 190px;
+    left: 107px;
+    bottom: 20px;
+    right: 400px;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: bolder;
+    display: inline-block; 
+}
+  
+#text-in-box-2 {
+    top: 270px;
+    left: 70px;
+    bottom: 0px;
+    right: 0px;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    font-weight: bold;
+    display: inline-block; 
+}
+
+.check {
+    position: relative; 
+    width: auto; 
+    height: 100px;
+    top: 60px;
+    left: 193px;
+    bottom: 0px;
+}
+
+footer {
+    background-color: #1B1B1B;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: -414px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0%;
+}
+
+.footer-image img {
+    position: absolute;
+    bottom: -19px;
+    left: -350px;
+    width: auto; 
+    height: 255px;
+}
+
+#h3 {
+    color: #ED2027;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 300px;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+#footer-section1 {
+    flex: 1 1 calc(33.33% - 30px); 
+    padding: 0 10px; 
+    min-height: 10px; 
+    margin-left: -65px;
+}
+
+#footer-section2 {
+    flex: 1 1 calc(33.33% - 30px); 
+    padding: 0 10px; 
+    min-height: 10px; 
+    margin-left: 80px;
+}
+
+#footer-section3 {
+    flex: 1 1 calc(33.33% - 30px); 
+    padding: 0 10px; 
+    min-height: 10px; 
+    margin-left: 80px;
+    margin-right: -100px;
+}
+
+.footer-section:last-child {
+    margin-bottom: 0; 
+}
+
+.social-logo {
+    width: auto;
+}
+
+#social-logo1 {
+    height: 50px;
+    margin-right: 20px;
+}
+
+#social-logo2 {
+    height: 50px;
+    margin-right: 20px;
+}
+
+#social-logo3 {
+    height: 50px;
+}
